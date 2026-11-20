@@ -1,0 +1,312 @@
+{
+  "vendor": "GitHub",
+  "statusPage": "https://www.githubstatus.com",
+  "slaName": "GitHub Online Services SLA",
+  "slaUrl": "https://github.com/customer-terms/github-online-services-sla",
+  "target": 99.9,
+  "period": "Q4 2026",
+  "periodStart": "2026-10-01",
+  "periodEnd": "2026-12-31",
+  "through": "2026-11-18",
+  "final": false,
+  "deadline": "2027-01-30",
+  "customer": "Northwind Labs",
+  "sender": "Priya Raman, Platform Engineering",
+  "account": "northwind-labs (Enterprise Cloud)",
+  "countMinor": false,
+  "services": [
+    {
+      "name": "Pull Requests",
+      "uptime": 99.3,
+      "soFar": 98.685,
+      "downtimeMin": 928,
+      "incidents": 6,
+      "credit": 10
+    },
+    {
+      "name": "Webhooks",
+      "uptime": 99.321,
+      "soFar": 98.725,
+      "downtimeMin": 900,
+      "incidents": 8,
+      "credit": 10
+    },
+    {
+      "name": "Pages",
+      "uptime": 99.588,
+      "soFar": 99.227,
+      "downtimeMin": 546,
+      "incidents": 7,
+      "credit": 5
+    },
+    {
+      "name": "Issues",
+      "uptime": 99.849,
+      "soFar": 99.717,
+      "downtimeMin": 199,
+      "incidents": 3,
+      "credit": 5
+    },
+    {
+      "name": "Git Operations",
+      "uptime": 99.873,
+      "soFar": 99.762,
+      "downtimeMin": 168,
+      "incidents": 2,
+      "credit": 5
+    },
+    {
+      "name": "API Requests",
+      "uptime": 99.909,
+      "soFar": 99.83,
+      "downtimeMin": 120,
+      "incidents": 1,
+      "credit": 0
+    }
+  ],
+  "evidence": [
+    {
+      "service": "Pull Requests",
+      "title": "Several services are degraded",
+      "start": "2026-10-06 19:57",
+      "end": "2026-10-06 23:40",
+      "minutes": 223,
+      "impact": "critical",
+      "link": "https://stspg.io/w3rcssslq22w"
+    },
+    {
+      "service": "Pull Requests",
+      "title": "Incident with Git Operations, Issues, Actions and Pull Requests",
+      "start": "2026-10-07 17:17",
+      "end": "2026-10-07 18:04",
+      "minutes": 48,
+      "impact": "critical",
+      "link": "https://stspg.io/4p8x0jnnsx7m"
+    },
+    {
+      "service": "Pull Requests",
+      "title": "Delays for Pull Requests and Webhook deliveries",
+      "start": "2026-10-21 14:52",
+      "end": "2026-10-21 19:22",
+      "minutes": 270,
+      "impact": "critical",
+      "link": "https://stspg.io/gnnt0tx9nxmk"
+    },
+    {
+      "service": "Pull Requests",
+      "title": "Incident with Pull Requests, Git Operations and Issues",
+      "start": "2026-11-04 09:49",
+      "end": "2026-11-04 11:50",
+      "minutes": 120,
+      "impact": "major",
+      "link": "https://stspg.io/18blsgwnbyy6"
+    },
+    {
+      "service": "Pull Requests",
+      "title": "Incident with Git Operations and Pull Requests",
+      "start": "2026-11-10 16:10",
+      "end": "2026-11-10 17:55",
+      "minutes": 104,
+      "impact": "critical",
+      "link": "https://stspg.io/16nsnk2th3rv"
+    },
+    {
+      "service": "Pull Requests",
+      "title": "Incident with Pull Requests",
+      "start": "2026-11-13 15:47",
+      "end": "2026-11-13 18:29",
+      "minutes": 162,
+      "impact": "major",
+      "link": "https://stspg.io/qzj7qjdcr8jc"
+    },
+    {
+      "service": "Webhooks",
+      "title": "Several services are degraded",
+      "start": "2026-10-06 19:57",
+      "end": "2026-10-06 23:40",
+      "minutes": 223,
+      "impact": "critical",
+      "link": "https://stspg.io/w3rcssslq22w"
+    },
+    {
+      "service": "Webhooks",
+      "title": "Degraded availability for GitHub Actions, GitHub Pages and Webhooks",
+      "start": "2026-10-19 15:49",
+      "end": "2026-10-19 16:56",
+      "minutes": 68,
+      "impact": "critical",
+      "link": "https://stspg.io/nrv2k8s68bwn"
+    },
+    {
+      "service": "Webhooks",
+      "title": "Delays for Pull Requests and Webhook deliveries",
+      "start": "2026-10-21 14:52",
+      "end": "2026-10-21 19:22",
+      "minutes": 270,
+      "impact": "critical",
+      "link": "https://stspg.io/gnnt0tx9nxmk"
+    },
+    {
+      "service": "Webhooks",
+      "title": "Incident with Actions, Pages, and Webhooks",
+      "start": "2026-10-30 17:50",
+      "end": "2026-10-30 19:23",
+      "minutes": 93,
+      "impact": "major",
+      "link": "https://stspg.io/5cd2m4n59spv"
+    },
+    {
+      "service": "Webhooks",
+      "title": "Incident with Actions and Pages",
+      "start": "2026-11-04 16:05",
+      "end": "2026-11-04 17:01",
+      "minutes": 56,
+      "impact": "major",
+      "link": "https://stspg.io/pjgptg3cfc6n"
+    },
+    {
+      "service": "Webhooks",
+      "title": "Incident with Webhooks and Actions",
+      "start": "2026-11-09 10:00",
+      "end": "2026-11-09 11:50",
+      "minutes": 110,
+      "impact": "major",
+      "link": "https://stspg.io/4vdghm7tycm4"
+    },
+    {
+      "service": "Webhooks",
+      "title": "Incident with Actions and Checks API",
+      "start": "2026-11-09 18:12",
+      "end": "2026-11-09 18:59",
+      "minutes": 47,
+      "impact": "critical",
+      "link": "https://stspg.io/7yw63xl9ztrv"
+    },
+    {
+      "service": "Webhooks",
+      "title": "Impact across multiple GitHub products including Actions, Pages, and Copilot products.",
+      "start": "2026-11-11 20:48",
+      "end": "2026-11-11 21:21",
+      "minutes": 33,
+      "impact": "critical",
+      "link": "https://stspg.io/jdjlq5zjyl48"
+    },
+    {
+      "service": "Pages",
+      "title": "Incident with Actions",
+      "start": "2026-10-05 19:11",
+      "end": "2026-10-05 22:49",
+      "minutes": 218,
+      "impact": "critical",
+      "link": "https://stspg.io/c11dc9nb1zdq"
+    },
+    {
+      "service": "Pages",
+      "title": "Degraded availability for GitHub Actions, GitHub Pages and Webhooks",
+      "start": "2026-10-19 15:49",
+      "end": "2026-10-19 16:56",
+      "minutes": 68,
+      "impact": "critical",
+      "link": "https://stspg.io/nrv2k8s68bwn"
+    },
+    {
+      "service": "Pages",
+      "title": "Disruption with GitHub services",
+      "start": "2026-10-30 14:31",
+      "end": "2026-10-30 15:02",
+      "minutes": 32,
+      "impact": "critical",
+      "link": "https://stspg.io/6p81rf34z4nc"
+    },
+    {
+      "service": "Pages",
+      "title": "Incident with Actions, Pages, and Webhooks",
+      "start": "2026-10-30 17:50",
+      "end": "2026-10-30 19:23",
+      "minutes": 93,
+      "impact": "major",
+      "link": "https://stspg.io/5cd2m4n59spv"
+    },
+    {
+      "service": "Pages",
+      "title": "Incident with Actions and Pages",
+      "start": "2026-11-04 16:05",
+      "end": "2026-11-04 17:01",
+      "minutes": 56,
+      "impact": "major",
+      "link": "https://stspg.io/pjgptg3cfc6n"
+    },
+    {
+      "service": "Pages",
+      "title": "Incident with Actions and Checks API",
+      "start": "2026-11-09 18:12",
+      "end": "2026-11-09 18:59",
+      "minutes": 47,
+      "impact": "critical",
+      "link": "https://stspg.io/7yw63xl9ztrv"
+    },
+    {
+      "service": "Pages",
+      "title": "Impact across multiple GitHub products including Actions, Pages, and Copilot products.",
+      "start": "2026-11-11 20:48",
+      "end": "2026-11-11 21:21",
+      "minutes": 33,
+      "impact": "critical",
+      "link": "https://stspg.io/jdjlq5zjyl48"
+    },
+    {
+      "service": "Issues",
+      "title": "Incident with Git Operations, Issues, Actions and Pull Requests",
+      "start": "2026-10-07 17:17",
+      "end": "2026-10-07 18:04",
+      "minutes": 48,
+      "impact": "critical",
+      "link": "https://stspg.io/4p8x0jnnsx7m"
+    },
+    {
+      "service": "Issues",
+      "title": "Disruption with GitHub services",
+      "start": "2026-10-30 14:31",
+      "end": "2026-10-30 15:02",
+      "minutes": 32,
+      "impact": "critical",
+      "link": "https://stspg.io/6p81rf34z4nc"
+    },
+    {
+      "service": "Issues",
+      "title": "Incident with Pull Requests, Git Operations and Issues",
+      "start": "2026-11-04 09:49",
+      "end": "2026-11-04 11:50",
+      "minutes": 120,
+      "impact": "major",
+      "link": "https://stspg.io/18blsgwnbyy6"
+    },
+    {
+      "service": "Git Operations",
+      "title": "Incident with Git Operations, Issues, Actions and Pull Requests",
+      "start": "2026-10-07 17:17",
+      "end": "2026-10-07 18:04",
+      "minutes": 48,
+      "impact": "critical",
+      "link": "https://stspg.io/4p8x0jnnsx7m"
+    },
+    {
+      "service": "Git Operations",
+      "title": "Incident with Pull Requests, Git Operations and Issues",
+      "start": "2026-11-04 09:49",
+      "end": "2026-11-04 11:50",
+      "minutes": 120,
+      "impact": "major",
+      "link": "https://stspg.io/18blsgwnbyy6"
+    },
+    {
+      "service": "API Requests",
+      "title": "Incident with Pull Requests, Git Operations and Issues",
+      "start": "2026-11-04 09:49",
+      "end": "2026-11-04 11:50",
+      "minutes": 120,
+      "impact": "major",
+      "link": "https://stspg.io/18blsgwnbyy6"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+start,end,service,title,impact,link
+2026-11-03T08:12:00Z,2026-11-03T09:40:00Z,Payments API,Sample: elevated 5xx on charges,major,
+2026-11-11T22:05:00Z,2026-11-12T01:15:00Z,Payments API,Sample: database failover,critical,
+2026-11-11T22:05:00Z,2026-11-11T23:00:00Z,Dashboard,Sample: dashboard unavailable,major,
+2026-11-17T14:00:00Z,2026-11-17T14:20:00Z,Webhooks,Sample: delayed deliveries,minor,

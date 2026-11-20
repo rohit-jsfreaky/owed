@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Owed: clinical white, hairline grid, ink, one red for downtime, mono numbers. */
+:root {
+  --paper: #ffffff;
+  --grid: #f4f5f7;
+  --ink: #101318;
+  --ink-2: #3a404b;
+  --muted: #636b78;
+  --faint: #9aa1ac;
+  --line: #e6e8ec;
+  --line-strong: #d3d7de;
+  --red: #c42b23;
+  --red-soft: #fcedec;
+  --ok: #1e7a4e;
+  --ok-soft: #e9f5ef;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-grid: var(--grid);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-red: var(--red);
+  --color-red-soft: var(--red-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --font-sans: var(--font-albert), "Helvetica Neue", Arial, sans-serif;
+  --font-mono: var(--font-redhat), Menlo, monospace;
+}
+
+html { -webkit-font-smoothing: antialiased; }
+body { background: var(--paper); color: var(--ink); font-family: var(--font-albert), "Helvetica Neue", Arial, sans-serif; }
+::selection { background: #fbd5d2; }
+
+@layer components {
+  .mono-label { font-family: var(--font-redhat), Menlo, monospace; font-size: 11.5px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); }
+  .btn { display: inline-flex; align-items: center; gap: 8px; border-radius: 999px; font-weight: 600; font-size: 14px; padding: 9px 16px; white-space: nowrap; transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease; }
+  .btn:disabled { opacity: 0.45; cursor: not-allowed; }
+  .btn-ink { background: var(--ink); color: #fff; }
+  .btn-ink:hover:not(:disabled) { background: #2a2f38; }
+  .btn-line { background: var(--paper); color: var(--ink); border: 1px solid var(--line-strong); }
+  .btn-line:hover:not(:disabled) { border-color: var(--ink); }
+  .input { width: 100%; background: var(--paper); border: 1px solid var(--line-strong); border-radius: 6px; padding: 7px 10px; font-size: 13.5px; outline: none; transition: border-color 120ms ease, box-shadow 120ms ease; }
+  .input:focus { border-color: var(--ink); box-shadow: 0 0 0 3px rgb(16 19 24 / 0.08); }
+  .hair-grid { background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px); background-size: 48px 48px; }
+  .scroll-thin { scrollbar-width: thin; scrollbar-color: var(--line-strong) transparent; }
+}
