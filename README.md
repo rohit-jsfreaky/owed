@@ -7,6 +7,8 @@ card (PNG) for your team channel.
 
 Built with [Hyper Elements](https://github.com/hyper-elements/hyper-elements) for the Hyper Elements Template Challenge.
 
+**Live:** https://owed.rohitkashyapmrt.workers.dev
+
 ![The ledger: GitHub's real status page for Q4 2026, five of six services below 99.9%, up to 10% owed](media/ledger.png)
 
 ## Why this exists
@@ -71,8 +73,8 @@ A claim with inflated numbers gets ignored, so Owed counts carefully and every l
 
 ## How Hyper Elements is used
 
-The three outputs are **Hyper Elements templates** in `templates/`. The app renders them in a route handler
-(`src/app/api/render/route.ts`), and the CLI renders the same files.
+The three outputs are **Hyper Elements templates** in `templates/`. The app renders them in the browser
+(`src/lib/render-route.ts`, so the site runs on Cloudflare with no render server), and the CLI renders the same files.
 
 - **Typed fields with rules** (`templates/_shared/claim.tsx`). The status page and SLA link must be `http(s)` URLs, the
   commitment is between 90 and 100, dates are dates, credits are 0 to 100, there are 1 to 20 services and at most 400
@@ -104,7 +106,7 @@ npm test               # periods, credit tiers, the real feed, overlap merging, 
 npm run check          # check the three templates with their example
 npm run claims         # claims/github-q4-2026.json → out/claims/ (letter PDF, email, card)
 npm run preview:email  # the email as each email client draws it
-npm run build && npm start
+npm run build && npx wrangler dev   # the static site, served the way Cloudflare does
 ```
 
 ### Incident CSV
